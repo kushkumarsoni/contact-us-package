@@ -3,11 +3,6 @@
     "description": "This will send email to admin and save contact query in database",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Kushkumarsoni\\Contact\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "kush",
@@ -16,6 +11,12 @@
     ],
     "minimum-stability": "dev",
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kushkumarsoni\\Contact\\": "src/"
+        }
+    },
+
     "extra": {
         "laravel": {
             "providers": [
